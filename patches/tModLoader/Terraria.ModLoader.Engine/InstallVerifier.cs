@@ -76,6 +76,7 @@ namespace Terraria.ModLoader.Engine
 
 		private static bool InstallCheck()
 		{
+			return true;
 #if CLIENT
 			// Check if the content directory is present which is required
 			if (!Directory.Exists(ContentDirectory)) {
