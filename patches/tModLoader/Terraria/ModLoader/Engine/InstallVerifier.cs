@@ -92,6 +92,7 @@ namespace Terraria.ModLoader.Engine
 		}
 
 		private static bool InstallCheck() {
+			return true;
 			// Check if the content directory is present, if it's required
 			if (!Main.dedServ && RequireContentDirectory && !Directory.Exists(TmlContentDirectory)) {
 				Exit(Language.GetTextValue("tModLoader.ContentFolderNotFoundInstallCheck", TmlContentDirectory), Language.GetTextValue("tModLoader.DefaultExtraMessage"));
