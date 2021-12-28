@@ -1,7 +1,7 @@
 "DepotBuildConfig"
 {
   "DepotID" "1281932"
-  "ContentRoot" "../artifacts/Build"
+  "ContentRoot" "../artifacts/Debug"
   "FileMapping"
   {
     "LocalPath" "*"
