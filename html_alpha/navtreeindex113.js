@@ -1,5 +1,11 @@
 var NAVTREEINDEX113 =
 {
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa413b479c5fe933ef6566964b83e0489":[1,0,2,21,1,2,67],
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa6e159a5bc44f1c12b3e3f080ced3b2a":[1,0,2,21,1,2,52],
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa71932f1ed83adde51d350633d3195e4":[1,0,2,21,1,2,126],
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa7e4e2f69cacbb9514c4ac914bf435c2":[1,0,2,21,1,2,21],
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa8018fd335f8efb9831d01156a79a072":[1,0,2,21,1,2,173],
+"class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aa92dd88ba37be62a5ab7f5570ede8dbf":[1,0,2,21,1,2,29],
 "class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aacc950ee949b21f2d15570f8355c0a40":[1,0,2,21,1,2,44],
 "class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aacd65966e1752015e491554937f87f42":[1,0,2,21,1,2,147],
 "class_terraria_1_1_u_i_1_1_gamepad_1_1_gamepad_point_i_d.html#aaecbbcb61b6d3f89df047d484821ea57":[1,0,2,21,1,2,42],
@@ -243,11 +249,5 @@ var NAVTREEINDEX113 =
 "class_terraria_1_1_u_i_1_1_item_slot.html#aa7033809cb6ff3bb0deff5633c6af910":[1,0,2,21,16,45],
 "class_terraria_1_1_u_i_1_1_item_slot.html#ab38dcce846205d551f4265bdda836155":[1,0,2,21,16,16],
 "class_terraria_1_1_u_i_1_1_item_slot.html#ab5a6987aac1094b1470b0845abc85371":[1,0,2,21,16,42],
-"class_terraria_1_1_u_i_1_1_item_slot.html#abc147edb38c2d1af09ecd0524bdaa255":[1,0,2,21,16,7],
-"class_terraria_1_1_u_i_1_1_item_slot.html#acfbcce7e7e8fdee5c69d9e17ffc79c8d":[1,0,2,21,16,38],
-"class_terraria_1_1_u_i_1_1_item_slot.html#ae49add73648391a4adeed56639cee327":[1,0,2,21,16,4],
-"class_terraria_1_1_u_i_1_1_item_slot.html#aed4f57ba06eb348765d216523af9aceb":[1,0,2,21,16,20],
-"class_terraria_1_1_u_i_1_1_item_slot.html#aee05d117bf1cbe55926a9e89c7a2da56":[1,0,2,21,16,27],
-"class_terraria_1_1_u_i_1_1_item_slot_1_1_context.html":[1,0,2,21,16,0],
-"class_terraria_1_1_u_i_1_1_item_slot_1_1_context.html#a0267cacd86d3a2f8818c8219aee12611":[1,0,2,21,16,0,11]
+"class_terraria_1_1_u_i_1_1_item_slot.html#abc147edb38c2d1af09ecd0524bdaa255":[1,0,2,21,16,7]
 };

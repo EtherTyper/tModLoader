@@ -1,5 +1,11 @@
 var NAVTREEINDEX116 =
 {
+"class_terraria_1_1_utils.html#acb665bee513cc5feb6d1f484bd7f0812":[1,0,2,74,42],
+"class_terraria_1_1_utils.html#acc1b9eea33648061af9784b1525532cb":[1,0,2,74,154],
+"class_terraria_1_1_utils.html#acc5f4b24a1135a1d7526d8163d754088":[1,0,2,74,52],
+"class_terraria_1_1_utils.html#acce5754368fcf91cf6879330428d9225":[1,0,2,74,134],
+"class_terraria_1_1_utils.html#acceef5de04be4a21f6afc08684464642":[1,0,2,74,123],
+"class_terraria_1_1_utils.html#ace5abf11f01dac36c0af0f61ab255c10":[1,0,2,74,101],
 "class_terraria_1_1_utils.html#ace90abb5d285e352e765c601ebb19d7a":[1,0,2,74,146],
 "class_terraria_1_1_utils.html#acef02d79c3ab3458e40adb9390d80b4d":[1,0,2,74,126],
 "class_terraria_1_1_utils.html#ad31352221448ac5be151677063601374":[1,0,2,74,108],
@@ -243,11 +249,5 @@ var NAVTREEINDEX116 =
 "class_terraria_1_1_world_building_1_1_modifiers_1_1_blotches.html#a5d569b5f851a7e210c1054439ae14e61":[1,0,2,23,13,0,1],
 "class_terraria_1_1_world_building_1_1_modifiers_1_1_blotches.html#a6dd300b80b8e4376817c43fedd55351f":[1,0,2,23,13,0,0],
 "class_terraria_1_1_world_building_1_1_modifiers_1_1_blotches.html#abdefd5ffb8e047f07e9712d9e9f53a05":[1,0,2,23,13,0,3],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_blotches.html#ad7d3eca6e35fe47337b1297fbf19ca53":[1,0,2,23,13,0,2],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_conditions.html":[1,0,2,23,13,1],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_conditions.html#ae21a32e4142cc508b10ee904b9af6178":[1,0,2,23,13,1,0],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_conditions.html#af194f0057c31c569fb0bbff8e968d43b":[1,0,2,23,13,1,1],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_dither.html":[1,0,2,23,13,2],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_dither.html#a7042ea6199cbb5f988139f4b2c86c6c5":[1,0,2,23,13,2,1],
-"class_terraria_1_1_world_building_1_1_modifiers_1_1_dither.html#a9baf59e1f7173d6710574c5e4050a973":[1,0,2,23,13,2,0]
+"class_terraria_1_1_world_building_1_1_modifiers_1_1_blotches.html#ad7d3eca6e35fe47337b1297fbf19ca53":[1,0,2,23,13,0,2]
 };
