@@ -151,7 +151,6 @@ var hierarchy =
     [ "Terraria.GameContent.UI.BigProgressBar.BigProgressBarSystem", "class_terraria_1_1_game_content_1_1_u_i_1_1_big_progress_bar_1_1_big_progress_bar_system.html", null ],
     [ "Terraria.ModLoader.IO.BinaryIO", "class_terraria_1_1_mod_loader_1_1_i_o_1_1_binary_i_o.html", null ],
     [ "Terraria.DataStructures.BinaryWriterHelper", "struct_terraria_1_1_data_structures_1_1_binary_writer_helper.html", null ],
-    [ "Terraria.ID.BiomeID", "class_terraria_1_1_i_d_1_1_biome_i_d.html", null ],
     [ "Terraria.GameContent.Bestiary.BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes", "class_terraria_1_1_game_content_1_1_bestiary_1_1_bestiary_database_n_p_cs_populator_1_1_common_t02940eab00c07d484d04ae8defb584db.html", null ],
     [ "Terraria.GameContent.Events.BirthdayParty", "class_terraria_1_1_game_content_1_1_events_1_1_birthday_party.html", null ],
     [ "Terraria.BitsByte", "struct_terraria_1_1_bits_byte.html", null ],
@@ -1240,6 +1239,7 @@ var hierarchy =
           ] ],
           [ "Terraria.ModLoader.ModBossBarStyle", "class_terraria_1_1_mod_loader_1_1_mod_boss_bar_style.html", null ],
           [ "Terraria.ModLoader.ModCommand", "class_terraria_1_1_mod_loader_1_1_mod_command.html", null ],
+          [ "Terraria.ModLoader.ModMapLayer", "class_terraria_1_1_mod_loader_1_1_mod_map_layer.html", null ],
           [ "Terraria.ModLoader.ModMenu", "class_terraria_1_1_mod_loader_1_1_mod_menu.html", null ],
           [ "Terraria.ModLoader.ModPlayer", "class_terraria_1_1_mod_loader_1_1_mod_player.html", [
             [ "Terraria.ModLoader.Default.ModAccessorySlotPlayer", "class_terraria_1_1_mod_loader_1_1_default_1_1_mod_accessory_slot_player.html", null ],
@@ -1349,7 +1349,8 @@ var hierarchy =
     [ "Terraria.Map.IMapLayer", "interface_terraria_1_1_map_1_1_i_map_layer.html", [
       [ "Terraria.Map.PingMapLayer", "class_terraria_1_1_map_1_1_ping_map_layer.html", null ],
       [ "Terraria.Map.SpawnMapLayer", "class_terraria_1_1_map_1_1_spawn_map_layer.html", null ],
-      [ "Terraria.Map.TeleportPylonsMapLayer", "class_terraria_1_1_map_1_1_teleport_pylons_map_layer.html", null ]
+      [ "Terraria.Map.TeleportPylonsMapLayer", "class_terraria_1_1_map_1_1_teleport_pylons_map_layer.html", null ],
+      [ "Terraria.ModLoader.ModMapLayer", "class_terraria_1_1_mod_loader_1_1_mod_map_layer.html", null ]
     ] ],
     [ "Terraria.GameContent.UI.IMultiplayerClosePlayersOverlay", "interface_terraria_1_1_game_content_1_1_u_i_1_1_i_multiplayer_close_players_overlay.html", [
       [ "Terraria.GameContent.UI.LegacyMultiplayerClosePlayersOverlay", "class_terraria_1_1_game_content_1_1_u_i_1_1_legacy_multiplayer_close_players_overlay.html", null ],
@@ -1921,6 +1922,7 @@ var hierarchy =
     [ "Terraria.ID.PrefixID", "class_terraria_1_1_i_d_1_1_prefix_i_d.html", null ],
     [ "Terraria.ModLoader.PrefixLoader", "class_terraria_1_1_mod_loader_1_1_prefix_loader.html", null ],
     [ "Terraria.GameContent.PressurePlateHelper", "class_terraria_1_1_game_content_1_1_pressure_plate_helper.html", null ],
+    [ "Terraria.ID.PrimaryBiomeID", "class_terraria_1_1_i_d_1_1_primary_biome_i_d.html", null ],
     [ "Terraria.ModLoader.Config.UI.PrimitiveRangeElement< byte >", "class_terraria_1_1_mod_loader_1_1_config_1_1_u_i_1_1_primitive_range_element.html", null ],
     [ "Terraria.ModLoader.Config.UI.PrimitiveRangeElement< float >", "class_terraria_1_1_mod_loader_1_1_config_1_1_u_i_1_1_primitive_range_element.html", [
       [ "Terraria.ModLoader.Config.UI.FloatElement", "class_terraria_1_1_mod_loader_1_1_config_1_1_u_i_1_1_float_element.html", null ]

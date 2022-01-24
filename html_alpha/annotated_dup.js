@@ -899,7 +899,6 @@ var annotated_dup =
           [ "Waist", "class_terraria_1_1_i_d_1_1_armor_i_ds_1_1_waist.html", "class_terraria_1_1_i_d_1_1_armor_i_ds_1_1_waist" ],
           [ "Wing", "class_terraria_1_1_i_d_1_1_armor_i_ds_1_1_wing.html", "class_terraria_1_1_i_d_1_1_armor_i_ds_1_1_wing" ]
         ] ],
-        [ "BiomeID", "class_terraria_1_1_i_d_1_1_biome_i_d.html", "class_terraria_1_1_i_d_1_1_biome_i_d" ],
         [ "BuffID", "class_terraria_1_1_i_d_1_1_buff_i_d.html", "class_terraria_1_1_i_d_1_1_buff_i_d" ],
         [ "ChainID", "class_terraria_1_1_i_d_1_1_chain_i_d.html", "class_terraria_1_1_i_d_1_1_chain_i_d" ],
         [ "CloudID", "class_terraria_1_1_i_d_1_1_cloud_i_d.html", "class_terraria_1_1_i_d_1_1_cloud_i_d" ],
@@ -935,6 +934,7 @@ var annotated_dup =
         [ "PlayerTextureID", "class_terraria_1_1_i_d_1_1_player_texture_i_d.html", "class_terraria_1_1_i_d_1_1_player_texture_i_d" ],
         [ "PlayerVariantID", "class_terraria_1_1_i_d_1_1_player_variant_i_d.html", "class_terraria_1_1_i_d_1_1_player_variant_i_d" ],
         [ "PrefixID", "class_terraria_1_1_i_d_1_1_prefix_i_d.html", "class_terraria_1_1_i_d_1_1_prefix_i_d" ],
+        [ "PrimaryBiomeID", "class_terraria_1_1_i_d_1_1_primary_biome_i_d.html", "class_terraria_1_1_i_d_1_1_primary_biome_i_d" ],
         [ "ProjAIStyleID", "class_terraria_1_1_i_d_1_1_proj_a_i_style_i_d.html", "class_terraria_1_1_i_d_1_1_proj_a_i_style_i_d" ],
         [ "ProjectileID", "class_terraria_1_1_i_d_1_1_projectile_i_d.html", "class_terraria_1_1_i_d_1_1_projectile_i_d" ],
         [ "ProjectileSourceID", "class_terraria_1_1_i_d_1_1_projectile_source_i_d.html", "class_terraria_1_1_i_d_1_1_projectile_source_i_d" ],
@@ -1220,6 +1220,7 @@ var annotated_dup =
         [ "ModItem", "class_terraria_1_1_mod_loader_1_1_mod_item.html", "class_terraria_1_1_mod_loader_1_1_mod_item" ],
         [ "ModKeybind", "class_terraria_1_1_mod_loader_1_1_mod_keybind.html", "class_terraria_1_1_mod_loader_1_1_mod_keybind" ],
         [ "ModLoader", "class_terraria_1_1_mod_loader_1_1_mod_loader.html", "class_terraria_1_1_mod_loader_1_1_mod_loader" ],
+        [ "ModMapLayer", "class_terraria_1_1_mod_loader_1_1_mod_map_layer.html", "class_terraria_1_1_mod_loader_1_1_mod_map_layer" ],
         [ "ModMenu", "class_terraria_1_1_mod_loader_1_1_mod_menu.html", "class_terraria_1_1_mod_loader_1_1_mod_menu" ],
         [ "ModMount", "class_terraria_1_1_mod_loader_1_1_mod_mount.html", "class_terraria_1_1_mod_loader_1_1_mod_mount" ],
         [ "ModNet", "class_terraria_1_1_mod_loader_1_1_mod_net.html", "class_terraria_1_1_mod_loader_1_1_mod_net" ],
