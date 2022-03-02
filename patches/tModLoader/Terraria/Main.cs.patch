@@ -426,6 +426,25 @@
  			if (Configuration.Save())
  				return PlayerInput.Save();
  
+@@ -3197,17 +_,7 @@
+ 		}
+ 
+ 		protected void CheckBunny() {
+-			try {
+-#if WINDOWS //TODO: <https://www.nuget.org/packages/Microsoft.Win32.Registry/>?
+-				RegistryKey currentUser = Registry.CurrentUser;
+-				currentUser = currentUser.CreateSubKey("Software\\Terraria");
+-				if (currentUser != null && currentUser.GetValue("Bunny") != null && currentUser.GetValue("Bunny").ToString() == "1")
+-					runningCollectorsEdition = true;
++			runningCollectorsEdition = true;
+-#endif
+-			}
+-			catch {
+-				runningCollectorsEdition = false;
+-			}
+ 		}
+ 
+ 		private static void TryPickingDefaultUIScale(float displayHeight) {
 @@ -3272,7 +_,15 @@
  					screenBorderlessPendingResizes = 1;
  
