@@ -38,3 +38,4 @@ solutions/Release/
 **/msbuild.binlog
 /steam_build
 .DS_Store
+._*
