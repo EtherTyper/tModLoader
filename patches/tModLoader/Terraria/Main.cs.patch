@@ -426,7 +426,6 @@
  			if (Configuration.Save())
  				return PlayerInput.Save();
  
-<<<<<<< HEAD
 @@ -3186,17 +_,7 @@
  		}
  
@@ -446,10 +445,7 @@
  		}
  
  		private static void TryPickingDefaultUIScale(float displayHeight) {
-@@ -3261,7 +_,15 @@
-=======
 @@ -3272,7 +_,15 @@
->>>>>>> b6df6e656a20bb885d0efb6a0624ead76e713127
  					screenBorderlessPendingResizes = 1;
  
  				SetDisplayMode(currentValue2, currentValue3, fullscreen: false);
