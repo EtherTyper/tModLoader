@@ -475,7 +475,7 @@
  			mouseBorderColorSlider.SetHSL(MouseBorderColor);
  			mouseBorderColorSlider.Alpha = (float)(int)MouseBorderColor.A / 255f;
 -			if (currentValue != 248)
-+			if (currentValue != Main.curRelease || ModLoader.ModLoader.LastLaunchedTModLoaderVersion != BuildInfo.tMLVersion || (BuildInfo.Purpose == BuildInfo.BuildPurpose.Alpha && ModLoader.ModLoader.LastLaunchedTModLoaderAlphaSha != BuildInfo.CommitSHA)) {
++			if (currentValue != Main.curRelease || ModLoader.ModLoader.LastLaunchedTModLoaderVersion != BuildInfo.tMLVersion || (BuildInfo.Purpose == BuildInfo.BuildPurpose.Dev && ModLoader.ModLoader.LastLaunchedTModLoaderAlphaSha != BuildInfo.CommitSHA)) {
 +				ModLoader.ModLoader.MigrateSettings();
  				SaveSettings();
 +			}
@@ -2544,6 +2544,26 @@
  		}
  
  		public void DrawItems() {
+@@ -28356,6 +_,19 @@
+ 				Rain rain = Main.rain[i];
+ 				if (rain.active) {
+ 					value.X = rain.type * 4;
++
++					if (rain.waterStyle >= maxLiquidTypes) {
++						value2 = LoaderManager.Get<WaterStylesLoader>().Get(rain.waterStyle).GetRainTexture().Value;
++						if (value2 == null) {
++							if (flag)
++								rain.Update();
++							continue;
++						}
++					}
++					else {
++						value2 = TextureAssets.Rain.Value;
++					}
++
+ 					spriteBatch.Draw(value2, rain.position - screenPosition, value, Lighting.GetColor((int)(rain.position.X + 4f) >> 4, (int)(rain.position.Y + 4f) >> 4) * 0.85f, rain.rotation, zero, rain.scale, SpriteEffects.None, 0f);
+ 					if (flag)
+ 						rain.Update();
 @@ -28484,6 +_,13 @@
  					if (dust.type == 213)
  						scale = 1f;
@@ -3038,6 +3058,22 @@
  						if ((!expertMode || type != 266) && ((type != 439 && type != 440) || npc[num2].ai[0] != 5f)) {
  							if (type >= 134 && type <= 136) {
  								scale = 1.5f;
+@@ -35120,6 +_,7 @@
+ 			if (!CanShowInfoAccs)
+ 				return;
+ 
++#pragma warning disable CS0219
+ 			bool flag = false;
+ 			bool flag2 = false;
+ 			bool flag3 = false;
+@@ -35132,6 +_,7 @@
+ 			bool flag10 = false;
+ 			bool flag11 = false;
+ 			bool flag12 = false;
++#pragma warning restore CS0219
+ 			int num = -1;
+ 			int num2 = -10;
+ 			int num3 = 0;
 @@ -35143,10 +_,18 @@
  				num4 += 50f;
  			}
@@ -3501,7 +3537,12 @@
  					array9[num24] = Lang.menu[5].Value;
  					if (selectedMenu == num24 || flag5) {
  						flag5 = false;
-@@ -38051,7 +_,8 @@
+@@ -38047,19 +_,21 @@
+ 					num4 = 55;
+ 					int num30 = 0;
+ 					array9[num30] = Lang.menu[73].Value + ": " + PendingResolutionWidth + "x" + PendingResolutionHeight;
+-					if (selectedMenu == num30) {
++					if (selectedMenu == num30 || selectedMenu2 == num30) {
  						SoundEngine.PlaySound(12);
  						int num31 = 0;
  						for (int num32 = 0; num32 < numDisplayModes; num32++) {
@@ -3511,9 +3552,10 @@
  								num31 = num32;
  								break;
  							}
-@@ -38059,7 +_,8 @@
+ 						}
  
- 						num31 = (num31 + 1) % numDisplayModes;
+-						num31 = (num31 + 1) % numDisplayModes;
++						num31 = Utils.Repeat(num31 + ((selectedMenu == num30) ? 1 : -1), Main.numDisplayModes);
  						PendingResolutionWidth = displayWidth[num31];
 -						PendingResolutionHeight = displayHeight[num31];
 +						// TML: Limit the resolution when going from fullscreen to windowed to be less than the full monitor size so that the key window edges are accessible
